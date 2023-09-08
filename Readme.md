@@ -16,8 +16,8 @@ The folder structure should look like this:
 | &emsp; &emsp;	| &emsp; &emsp; &emsp;	print(“object Two”) <br />
 | &emsp; &emsp; |<br />
 | &emsp; &emsp;	----->	- __init__.py <br />
-| &emsp; &emsp;	&emsp; &emsp;	from resources.object_One import One <br />
-| &emsp; &emsp;	&emsp; &emsp;	from resources.object_Two import Two <br />
+| &emsp; &emsp;	&emsp; &emsp; &emsp; from resources.object_One import One <br />
+| &emsp; &emsp;	&emsp; &emsp; &emsp; from resources.object_Two import Two <br />
 ----->	- tutorial.py <br />
   &emsp; &emsp;	&emsp; &emsp; import Resources <br />
   &emsp; &emsp;	&emsp; &emsp; o = Resorces.One() <br />
