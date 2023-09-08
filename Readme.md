@@ -82,8 +82,7 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 > In this tutorial documentation will be uploaded to a seperate github repository but you can upload to an empty subfolder of a github project.
 
 1. Create a fresh empty repository with or without Readme.rm file.<br />
-2. Add all the .html files that are generated using sphinx to the main branch.<br />
-   	> You can also create a subfolder and add .html files there.
+2. Add all the .html files that are generated using sphinx to the subfolder inside the main branch.<br />
 
 3. After adding the documentation files to the intended folder go to the project main and settings --> code and automation/Pages and under Build and Deployment -> Branch 
    Select the branch that contains the documentation and next to it select the subfolder that has the documentation. Then click save button.<br />
@@ -97,7 +96,8 @@ To find files that cause error you can create the docs subfolder inside project 
 If github pages does not have a theme try adding .conf.py file to the parent folder to the .html files and add the following theme by adding: <br />
 		
   	theme: "sphinx_rtd_theme"
- 
+Next add an empty file called .nojekyll to the root of your github pages so jekyll website generator will be bypassed by github pages. <br />
+
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV <br />
 
 Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
