@@ -69,7 +69,7 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
 10. 
 
-# Debugging, finding errors <br />
+### Debugging, finding errors <br />
 
 To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder.
 
