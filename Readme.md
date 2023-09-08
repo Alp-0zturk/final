@@ -2,7 +2,7 @@
 1. Open the project you want to create a documentation
    Use cd /path/to/project to be in the project directory.
    
-The folder structure should look like this in order to create python documentation:
+The folder structure should look like this in order to create python documentation from the project:
 
  - Tutorial <br />
 | --->	 - Resources <br />
@@ -27,11 +27,15 @@ The folder structure should look like this in order to create python documentati
 		
 The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tree/python_examples/sphinx_documentation/src
 
-2.
+2. Install sphinx to your workspace by using the command below:
+	
+ 	brew install sphinx-doc
+3. 
+4. 
 
-3.
+5.
 
-4.
+6.
 
 
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV
