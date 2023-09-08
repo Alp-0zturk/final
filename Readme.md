@@ -60,9 +60,14 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
 			html_theme = 'sphinx_rtd_theme'
 			html_static_path = ['_static']
-9.
+9. Go to index.rst file and type modules to include modules (subfolders that are going to be documented) like in the example below:
+   			.. toctree::
+   			:maxdepth: 2
+   			:caption: Contents:
 
-10.
+      			modules
+
+10. 
 
 
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV
