@@ -78,7 +78,7 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 	You can open and see the generated documentation files by opening a html file that is generated. And check if you can traverse through other .html files through the created website.
 
 ### Github Pages
-> Github Pages can be used to create a website, to release the documentation and make it more accessible.
+> Github Pages can be used to create a website, to release the documentation and make it more accessible. <br />
 > In this tutorial documentation will be uploaded to a seperate github repository but you can upload to an empty subfolder of a github project.
 
 1. Create a fresh empty repository with or without Readme.rm file.<br />
