@@ -8,7 +8,7 @@
 The folder structure should look like this in order to create python documentation from the project: <br />
 
  - Tutorial <br />
-| --->	 - Resources <br />
+| --->	 /Resources <br />
 | &emsp; &emsp;	|---->	- object_one.py <br />
 | &emsp; &emsp;	| &emsp; &emsp; &emsp;	class One(): <br />
 | &emsp; &emsp;	| &emsp; &emsp; &emsp;	def __init__(self): <br />
