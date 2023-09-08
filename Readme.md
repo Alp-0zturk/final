@@ -87,8 +87,8 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
 3. After adding the documentation files to the intended folder go to the project main and settings --> code and automation/Pages and under Build and Deployment -> Branch 
    Select the branch that contains the documentation and next to it select the subfolder that has the documentation. Then click save button.<br />
-   The page will be running after few minutes of loading.
-   
+   The page will be running after few minutes of loading. <br />
+   You can access to the created github pages website from <Project_name>/Settings/Pages and see if it runs properly.
 
 <h3> Debugging, finding errors </h3>
 
