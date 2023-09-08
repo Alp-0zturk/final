@@ -1,8 +1,8 @@
 ## Python documentation guide
-1. Open the project you want to create a documentation
-   Use cd /path/to/project to be in the project directory.
+1. Open the project you want to create a documentation <br />
+   Use cd /path/to/project to be in the project directory. <br />
    
-The folder structure should look like this in order to create python documentation from the project:
+The folder structure should look like this in order to create python documentation from the project: <br />
 
  - Tutorial <br />
 | --->	 - Resources <br />
@@ -36,13 +36,20 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
    		apt-get install python3-sphinx
 
-4.
-5. 
-6. 
+3. Create docs folder under the main project folder by using mkdir docs command <br />
+	
+4. Go to docs directory and use sphinx-quickstart command to create a documentation base. <br />
 
-7.
+5. Create __init__.py file for all subfolders that have python code that you want to document. <br />
+
+6. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python codes)<br />
+
+  > reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
+7. 
 
 8.
+
+9.
 
 
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV
