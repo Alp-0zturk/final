@@ -46,8 +46,9 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 6. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python files)<br />
 
 		sphinx-apidoc -o docs .
-  > with this command .rst files will be created under the docs folder. <br />
-  > reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
+  > with this command .rst files will be created under the docs folder. The created .rst files show which subfolders will be documented in the end. You can check if the expected subfolders have .rst file. You can see the folders that are recognised by sphinx by checking modules.rst <br />
+  > If intended folder is not in modules.rst some subfolders might have missing __init__.py files. If so, delete modules.rst and execute the command again.
+  >> reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
   
 7. After .rst files have been created open conf.py file and change the code by adding  <br />
 	
@@ -65,12 +66,15 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
    			:maxdepth: 2 <br />
    			:caption: Contents: <br /> modules <br />
 
+      > If 
+
 10. 
 
 <h3> Debugging, finding errors </h3>
 
 To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder. <br />
 
+:warning: To be able to create documentations the project has to be running without errors.
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV <br />
 
 Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
