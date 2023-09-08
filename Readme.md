@@ -39,18 +39,30 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 3. Create docs folder under the main project folder by using mkdir docs command <br />
 	
 4. Go to docs directory and use sphinx-quickstart command to create a documentation base. <br />
-
+	- After executing the command it will ask you project name, author name and version. <br />
+ 
 5. Create __init__.py file for all subfolders that have python code that you want to document. <br />
 
 6. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python files)<br />
-	sphinx-apidoc -o docs .
+
+		sphinx-apidoc -o docs .
   > with this command .rst files will be created under the docs folder. <br />
   > reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
-7. 
 
-8.
+7. After .rst files have been created open conf.py file and change the code by adding 
+	
+ 		import os
+		import sys
+		sys.path.insert(0, os.path.abspath(".."))
+	- And add these codes below to create documentation succesfully and add a theme to the created .html documentation files.
 
+  			extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc"]
+
+			html_theme = 'sphinx_rtd_theme'
+			html_static_path = ['_static']
 9.
+
+10.
 
 
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV
