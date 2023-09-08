@@ -1,4 +1,7 @@
 ## Python documentation guide
+
+:warning: To be able to create documentations the project has to be running without errors. <br />
+
 1. Open the project you want to create a documentation <br />
    Use cd /path/to/project to be in the project directory. <br />
    
@@ -74,7 +77,6 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
 To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder. <br />
 
-:warning: To be able to create documentations the project has to be running without errors.
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV <br />
 
 Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
