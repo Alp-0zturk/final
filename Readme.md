@@ -69,14 +69,35 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
    			:maxdepth: 2 <br />
    			:caption: Contents: <br /> modules <br />
 
-      > If 
+10. After modifying conf.py and index.rst Navigate to the docs folder using terminal and use the comand below to generate .html files which contain python documentation.
 
-10. 
+    	make html
+
+ 	> make html command will run make.bat file and generate .html files under docs/build/html directory.
+
+	You can open and see the generated documentation files by opening a html file that is generated. And check if you can traverse through other .html files through the created website.
+
+### Github Pages
+> Github Pages can be used to create a website, to release the documentation and make it more accessible.
+> In this tutorial documentation will be uploaded to a seperate github repository but you can upload to an empty subfolder of a github project.
+
+1. Create a fresh empty repository with or without Readme.rm file.<br />
+2. Add all the .html files that are generated using sphinx to the main branch.<br />
+   	> You can also create a subfolder and add .html files there.
+
+3. After adding the documentation files to the intended folder go to the project main and settings --> code and automation/Pages and under Build and Deployment -> Branch 
+   Select the branch that contains the documentation and next to it select the subfolder that has the documentation. Then click save button.<br />
+   The page will be running after few minutes of loading.
+   
 
 <h3> Debugging, finding errors </h3>
 
 To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder. <br />
 
+If github pages does not have a theme try adding .conf.py file to the parent folder to the .html files and add the following theme by adding: <br />
+		
+  	theme: "sphinx_rtd_theme"
+ 
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV <br />
 
 Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
