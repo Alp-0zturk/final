@@ -71,8 +71,8 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
 ### Debugging, finding errors <br />
 
-To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder.
+To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder. <br />
 
-Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV
+Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV <br />
 
-Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html
+Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
