@@ -30,12 +30,14 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 2. Install sphinx to your workspace by using the command below:
 	
  	brew install sphinx-doc
-3. 
-4. 
 
-5.
+3.
+4. 
+5. 
 
 6.
+
+7.
 
 
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV
