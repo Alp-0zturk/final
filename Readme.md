@@ -23,15 +23,17 @@ The folder structure should look like this in order to create python documentati
 ----->	- tutorial.py <br />
   &emsp; &emsp;	&emsp; &emsp; import Resources <br />
   &emsp; &emsp;	&emsp; &emsp; o = Resorces.One() <br />
-  &emsp; &emsp;	&emsp; &emsp; t = Resources.Two()		
+  &emsp; &emsp;	&emsp; &emsp; t = Resources.Two()	<br />	
 		
-The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tree/python_examples/sphinx_documentation/src
+The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tree/python_examples/sphinx_documentation/src <br />
 
-2. Install sphinx to your workspace by using the command below:
-	for Mac:
- 		brew install sphinx-doc
+2. Install sphinx to your workspace by using the command below:<br />
+	for Mac:<br />
 
-   	for Linux:
+   		brew install sphinx-doc
+
+   	for Linux:<br />
+
    		apt-get install python3-sphinx
 
 4.
