@@ -63,8 +63,7 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 9. Go to index.rst file and type modules to include modules (subfolders that are going to be documented to .html) like in the example below: <br />
    			.. toctree:: <br />
    			:maxdepth: 2 <br />
-   			:caption: Contents: <br />
-      			modules
+   			:caption: Contents: <br /> modules <br />
 
 10. 
 
