@@ -42,8 +42,9 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
 5. Create __init__.py file for all subfolders that have python code that you want to document. <br />
 
-6. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python codes)<br />
-
+6. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python files)<br />
+	sphinx-apidoc -o docs .
+  > with this command .rst files will be created under the docs folder. <br />
   > reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
 7. 
 
