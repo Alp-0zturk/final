@@ -28,16 +28,19 @@ The folder structure should look like this in order to create python documentati
 The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tree/python_examples/sphinx_documentation/src
 
 2. Install sphinx to your workspace by using the command below:
-	
+	for Mac:
  		brew install sphinx-doc
 
-3.
-4. 
-5. 
+   	for Linux:
+   		apt-get install python3-sphinx
 
-6.
+4.
+5. 
+6. 
 
 7.
+
+8.
 
 
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV
