@@ -6,7 +6,7 @@ The folder structure should look like this:
  - Tutorial <br />
 |	 - Resources <br />
 |	|---->	- object_one.py <br />
-|(emsp)	|		class One(): <br />
+|<emsp>	|		class One(): <br />
 |	|		def __init__(self): <br />
 |	|		print(“object One”) <br />
 |       |<br />
