@@ -48,7 +48,7 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 		sphinx-apidoc -o docs .
   > with this command .rst files will be created under the docs folder. <br />
   > reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
-
+  
 7. After .rst files have been created open conf.py file and change the code by adding  <br />
 	
  		import os
@@ -64,12 +64,11 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
    			.. toctree:: <br />
    			:maxdepth: 2 <br />
    			:caption: Contents: <br />
-
       			modules
 
 10. 
 
-### Debugging, finding errors <br />
+<h3> Debugging, finding errors </h3>
 
 To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder. <br />
 
