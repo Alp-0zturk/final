@@ -29,7 +29,7 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
 
 2. Install sphinx to your workspace by using the command below:
 	
- 	brew install sphinx-doc
+ 		brew install sphinx-doc
 
 3.
 4. 
