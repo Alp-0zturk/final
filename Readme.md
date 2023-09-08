@@ -4,8 +4,8 @@
 The folder structure should look like this:
 
  - Tutorial <br />
-|&emsp;	 - Resources <br />
-|&emsp;	|---->	- object_one.py <br />
+| &emsp;	 - Resources <br />
+| &emsp;	|---->	- object_one.py <br />
 |&emsp;	|&emsp;		class One(): <br />
 |&emsp;	|&emsp;		def __init__(self): <br />
 |&emsp;	|&emsp;		print(“object One”) <br />
