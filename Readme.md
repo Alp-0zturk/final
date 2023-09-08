@@ -1,7 +1,8 @@
 ## Python documentation guide
-1. 
-
-The folder structure should look like this:
+1. Open the project you want to create a documentation
+   Use cd /path/to/project to be in the project directory.
+   
+The folder structure should look like this in order to create python documentation:
 
  - Tutorial <br />
 | --->	 - Resources <br />
