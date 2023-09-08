@@ -46,19 +46,22 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
  
 5. Create __init__.py file for all subfolders that have python code that you want to document. <br />
 
-6. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python files)<br />
+6. Install a documentation theme by using the command below so the generated documentation will look tidy and more understandable.
+
+   		pip install sphinx_rtd_theme
+7. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python files)<br />
 
 		sphinx-apidoc -o docs .
   > with this command .rst files will be created under the docs folder. The created .rst files show which subfolders will be documented in the end. You can check if the expected subfolders have .rst file. You can see the folders that are recognised by sphinx by checking modules.rst <br />
   > If intended folder is not in modules.rst some subfolders might have missing __init__.py files. If so, delete modules.rst and execute the command again.
   >> reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
   
-7. After .rst files have been created open conf.py file and change the code by adding  <br />
+8. After .rst files have been created open conf.py file and change the code by adding  <br />
 	
  		import os
 		import sys
 		sys.path.insert(0, os.path.abspath(".."))
-	- And add these codes below to create documentation succesfully and add a theme to the created .html documentation files. <br />
+	- And add these codes below to create documentation succesfully and add a theme to the created .html documentation files. In this case we will be using sphinx_rtd_theme which we have installed in previous steps. <br />
 
   			extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc"]
 
