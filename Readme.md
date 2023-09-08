@@ -4,24 +4,24 @@
 The folder structure should look like this:
 
  - Tutorial <br />
-|&nbsp;	 - Resources <br />
-|&nbsp;	|---->	- object_one.py <br />
-|&nbsp;	|		class One(): <br />
-|&nbsp;	|		def __init__(self): <br />
-|&nbsp;	|		print(“object One”) <br />
-|       |<br />
-|	|---->	- object_two.py <br />
-|	|		class Two(): <br />
-|	|		def __init__(self): <br />
-|	|		print(“object Two”) <br />
-|       |<br />
-|	----->	- __init__.py <br />
-|			from resources.object_One import One <br />
-|			from resources.object_Two import Two <br />
+|&ebsp;	 - Resources <br />
+|&ebsp;	|---->	- object_one.py <br />
+|&ebsp;	|&ebsp;		class One(): <br />
+|&ebsp;	|&ebsp;		def __init__(self): <br />
+|&ebsp;	|&ebsp;		print(“object One”) <br />
+|&ebsp; |<br />
+|&ebsp;	|---->	- object_two.py <br />
+|&ebsp;	|&ebsp;		class Two(): <br />
+|&ebsp;	|&ebsp;		def __init__(self): <br />
+|&ebsp;	|&ebsp;		print(“object Two”) <br />
+|&ebsp; |<br />
+|&ebsp;	----->	- __init__.py <br />
+|&ebsp;			from resources.object_One import One <br />
+|&ebsp;			from resources.object_Two import Two <br />
 ----->	- tutorial.py <br />
-		import Resources <br />
-		o = Resorces.One() <br />
-		t = Resources.Two()		
+	&ebsp;	import Resources <br />
+	&ebsp;	o = Resorces.One() <br />
+	&ebsp;	t = Resources.Two()		
 		
 The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tree/python_examples/sphinx_documentation/src
 
