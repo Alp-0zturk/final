@@ -9,12 +9,12 @@ The folder structure should look like this:
 | &emsp; &emsp;	| &emsp;		class One(): <br />
 | &emsp; &emsp;	| &emsp;		def __init__(self): <br />
 | &emsp; &emsp;	| &emsp;		print(“object One”) <br />
-| &emsp; |<br />
+| &emsp; &emsp; |<br />
 | &emsp; &emsp;	|---->	- object_two.py <br />
 | &emsp; &emsp;	| &emsp;		class Two(): <br />
 | &emsp; &emsp;	| &emsp;		def __init__(self): <br />
 | &emsp; &emsp;	| &emsp;		print(“object Two”) <br />
-| &emsp; |<br />
+| &emsp; &emsp; |<br />
 | &emsp; &emsp;	----->	- __init__.py <br />
 | &emsp; &emsp;			from resources.object_One import One <br />
 | &emsp; &emsp;			from resources.object_Two import Two <br />
