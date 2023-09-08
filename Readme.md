@@ -4,11 +4,11 @@
 The folder structure should look like this:
 
  - Tutorial <br />
-|	 - Resources <br />
-|	|---->	- object_one.py <br />
-|<emsp>	|		class One(): <br />
-|	|		def __init__(self): <br />
-|	|		print(“object One”) <br />
+|&nbsp;	 - Resources <br />
+|&nbsp;	|---->	- object_one.py <br />
+|&nbsp;	|		class One(): <br />
+|&nbsp;	|		def __init__(self): <br />
+|&nbsp;	|		print(“object One”) <br />
 |       |<br />
 |	|---->	- object_two.py <br />
 |	|		class Two(): <br />
