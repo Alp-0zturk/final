@@ -49,21 +49,21 @@ The folder structure example: https://github.com/lpwj/five_minutes_tutorials/tre
   > with this command .rst files will be created under the docs folder. <br />
   > reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
 
-7. After .rst files have been created open conf.py file and change the code by adding 
+7. After .rst files have been created open conf.py file and change the code by adding  <br />
 	
  		import os
 		import sys
 		sys.path.insert(0, os.path.abspath(".."))
-	- And add these codes below to create documentation succesfully and add a theme to the created .html documentation files.
+	- And add these codes below to create documentation succesfully and add a theme to the created .html documentation files. <br />
 
   			extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc"]
 
 			html_theme = 'sphinx_rtd_theme'
 			html_static_path = ['_static']
-9. Go to index.rst file and type modules to include modules (subfolders that are going to be documented) like in the example below:
-   			.. toctree::
-   			:maxdepth: 2
-   			:caption: Contents:
+9. Go to index.rst file and type modules to include modules (subfolders that are going to be documented) like in the example below: <br />
+   			.. toctree:: <br />
+   			:maxdepth: 2 <br />
+   			:caption: Contents: <br />
 
       			modules
 
