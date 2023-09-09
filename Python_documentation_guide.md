@@ -93,7 +93,7 @@
    The page will be running after few minutes of loading. <br />
    You can access to the created github pages website from <Project_name>/Settings/Pages and see if it runs properly.
 
-<h3> Debugging, finding errors </h3>
+<h3> Debugging </h3>
 
 To find files that cause error you can create the docs subfolder inside project modules and generate documentation for each project subfolder. <br />
 
