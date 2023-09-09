@@ -85,9 +85,10 @@
 > In this tutorial documentation will be uploaded to a seperate github repository but you can upload to an empty subfolder of a github project.
 
 1. Create a fresh empty repository with or without Readme.rm file.<br />
-2. Add all the .html files that are generated using sphinx to the subfolder inside the main branch.<br />
+2. Create a subfolder called docs.<br />
+3. Add all the .html files that are generated using sphinx to the subfolder called docs inside the main branch.<br />
 
-3. After adding the documentation files to the intended folder go to the project main and settings --> code and automation/Pages and under Build and Deployment -> Branch 
+4. After adding the documentation files to the intended folder go to the project main and settings --> code and automation/Pages and under Build and Deployment -> Branch 
    Select the branch that contains the documentation and next to it select the subfolder that has the documentation. Then click save button.<br />
    The page will be running after few minutes of loading. <br />
    You can access to the created github pages website from <Project_name>/Settings/Pages and see if it runs properly.
