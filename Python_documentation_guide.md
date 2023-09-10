@@ -46,13 +46,13 @@
  
 5. Create __init__.py file for all subfolders that have python code that you want to document. <br />
 
-6. Install a documentation theme by using the command below so the generated documentation will look tidy and more understandable.
+6. Install a documentation theme by using the command below so the generated documentation will be more understandable.
 
    		pip install sphinx_rtd_theme
 7. Go back to the project folder by using "cd .." command and then use the command below to create .rst (reStructuredText files for python files)<br />
 
 		sphinx-apidoc -o docs .
-  > with this command .rst files will be created under the docs folder. The created .rst files show which subfolders will be documented in the end. You can check if the expected subfolders have .rst file. You can see the folders that are recognised by sphinx by checking modules.rst <br />
+  > with this command .rst files will be created under the docs folder. The created .rst files show which subfolders will be documented in the end. You can check if the expected subfolders have a corresponding .rst file. You can see the folders that are recognised by sphinx by checking modules.rst <br />
   > If intended folder is not in modules.rst some subfolders might have missing __init__.py files. If so, delete modules.rst and execute the command again.
   >> reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
   
@@ -82,7 +82,7 @@
 
 ## Github Pages
 > Github Pages can be used to create a website, to release the documentation and make it more accessible. <br />
-> In this tutorial documentation will be uploaded to a seperate github repository but you can upload to an empty subfolder of a github project.
+> In this part documentation will be uploaded to a seperate github repository but you can upload to an empty subfolder of a github project.
 
 1. Create a fresh empty repository with or without Readme.rm file.<br />
 2. Create a subfolder called docs.<br />
