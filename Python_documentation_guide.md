@@ -1,4 +1,4 @@
-<h2> Python documentation guide <h2 />
+## Python documentation guide
 
 :warning: To be able to create python documentations the project has to be running without errors. <br />
 
@@ -80,7 +80,7 @@
 
 	You can open and see the generated documentation files by opening a html file that is generated. And check if you can traverse through other .html files through the created website.
 
-<h2> Github Pages <h2 />
+## Github Pages
 > Github Pages can be used to create a website, to release the documentation and make it more accessible. <br />
 > In this tutorial documentation will be uploaded to a seperate github repository but you can upload to an empty subfolder of a github project.
 
