@@ -12,12 +12,12 @@
 | &emsp; &emsp;	|---->	- object_one.py <br />
 | &emsp; &emsp;	| &emsp; &emsp; &emsp;	class One(): <br />
 | &emsp; &emsp;	| &emsp; &emsp; &emsp;	def __init__(self): <br />
-| &emsp; &emsp;	| &emsp; &emsp; &emsp;	print(“object One”) <br />
+| &emsp; &emsp;	| &emsp; &emsp; &emsp;	&emsp; print(“object One”) <br />
 | &emsp; &emsp; |<br />
 | &emsp; &emsp;	|---->	- object_two.py <br />
 | &emsp; &emsp;	| &emsp; &emsp; &emsp;	class Two(): <br />
 | &emsp; &emsp;	| &emsp; &emsp; &emsp;	def __init__(self): <br />
-| &emsp; &emsp;	| &emsp; &emsp; &emsp;	print(“object Two”) <br />
+| &emsp; &emsp;	| &emsp; &emsp; &emsp; &emsp;print(“object Two”) <br />
 | &emsp; &emsp; |<br />
 | &emsp; &emsp;	----->	- __init__.py <br />
 | &emsp; &emsp;	&emsp; &emsp; &emsp; from resources.object_One import One <br />
