@@ -1,6 +1,6 @@
 ## Python documentation guide
 
-:warning: To be able to create documentations the project has to be running without errors. <br />
+:warning: To be able to create python documentations the project has to be running without errors. <br />
 
 1. Open the project you want to create a documentation <br />
    Use cd /path/to/project to be in the project directory. <br />
