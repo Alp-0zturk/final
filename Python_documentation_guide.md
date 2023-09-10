@@ -105,3 +105,5 @@ Next add an empty file called .nojekyll to the root of your github pages so jeky
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV <br />
 
 Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
+
+Github pages tutorial: https://docs.github.com/en/pages/quickstart 
