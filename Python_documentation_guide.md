@@ -102,9 +102,12 @@ If github pages does not have a theme try adding .conf.py file to the parent fol
   	theme: "sphinx_rtd_theme"
 Next add an empty file called .nojekyll to the root of your github pages so jekyll website generator will be bypassed by github pages. <br />
 
+#### Sources
+
 Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0&list=PPSV <br />
 
 Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
 
 Github pages tutorial: https://docs.github.com/en/pages/quickstart <br />
+
 Github pages tutorial video: https://www.youtube.com/watch?v=QyFcl_Fba-k&t=648s
