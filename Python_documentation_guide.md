@@ -106,5 +106,5 @@ Python documentation tutorial video: https://www.youtube.com/watch?v=BWIrhgCAae0
 
 Sphinx official page: https://www.sphinx-doc.org/en/master/usage/installation.html <br />
 
-Github pages tutorial: https://docs.github.com/en/pages/quickstart 
+Github pages tutorial: https://docs.github.com/en/pages/quickstart <br />
 Github pages tutorial video: https://www.youtube.com/watch?v=QyFcl_Fba-k&t=648s
